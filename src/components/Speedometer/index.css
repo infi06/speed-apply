@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+}
+.btn-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speed-heading {
+  color: white;
+}
+.img-size {
+  height: 350px;
+  width: 450px;
+}
+.text {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+
+.speed-btn {
+  margin-right: 20px;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  height: 28px;
+  width: 70px;
+  font-size: 10px;
+}
+
+.break-btn {
+  margin-right: 20px;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  border-radius: 4px;
+  color: #ffffff;
+  height: 28px;
+  width: 70px;
+  font-size: 10px;
+}
